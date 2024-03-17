@@ -1,0 +1,15 @@
+class BlinkingActor : Actor
+{
+    Default
+    {
+        +NOINTERACTION
+    }
+
+    States
+    {
+    Spawn:
+        TROO A 5;
+        TNT1 A 10;
+        loop;
+    }
+}
